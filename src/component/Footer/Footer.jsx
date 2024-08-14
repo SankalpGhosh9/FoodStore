@@ -10,7 +10,7 @@ const Footer = () => {
                 <h1 className='heading'>Foodstore</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae, inventore enim quis culpa vero exercitationem unde veniam, sed in labore nulla! Tempora minus eos enim blanditiis distinctio neque soluta.</p>
                 <div className="footer-social-icons">
-                    <img src={assets.facebook_icon} alt="" />
+                    <img  src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
                     <img src={assets.linkedin_icon}alt="" />
                 </div>
@@ -34,6 +34,7 @@ const Footer = () => {
             
         </div>
         <hr />
+        <p className="footer-copyright">Copyright 2024 © FoodStore.com - All Right Reserved . </p>
     </div>
   )
 }
