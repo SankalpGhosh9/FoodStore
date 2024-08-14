@@ -30,7 +30,7 @@ const PlaceOrder = () => {
     e.preventDefault();
     console.log(formData);
     try {
-      const response = await fetch('http://localhost:5000/api/place-order', {
+      const response = await fetch('https://food-store-backend-omega.vercel.app/api/place-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
